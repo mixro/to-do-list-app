@@ -9,6 +9,13 @@ module.exports = {
         'medium': ['Poppins-Medium', 'sans-serif'],
         'semibold': ['Poppins-SemiBold', 'sans-serif'],
       },
+      colors: {
+        'primary-light': '#f6f1ff',
+        'primary-dark': '#d8d7d7ff',
+        'accent-blue': '#4169E1', 
+        'ligth-blue': '#809fffff',
+        'secondary-background': '#fcfbffff',
+      }
     },
   },
   plugins: [],
