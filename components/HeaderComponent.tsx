@@ -46,7 +46,7 @@ export default function HeaderComponent() {
                 className='pb-8'
             >
                 {taskFilters.map((filter) => (
-                    <View key={filter.id} className={`px-4 py-2 mr-3 border border-primary-dark ${filter.title == "All" ? 'bg-accent-blue' : 'bg-secondary-background'} rounded-full`}>
+                    <View key={filter.id} className={`px-4 py-2 mr-3 border-2 border-primary-dark ${filter.title == "All" ? 'bg-accent-blue' : 'bg-secondary-background'} rounded-full`}>
                         <Text className={`${filter.title == "All" && 'text-white'}`}>{filter.title}</Text>
                     </View>
                 ))}

@@ -28,7 +28,7 @@ export const TasksList = [
     category: 'Personal',
     startTime: '2025-10-06T14:00:00Z',
     endTime: '2025-10-06T14:30:00Z',
-    status: 'overdue',
+    status: 'completed',
   },
   {
     id: '2',
@@ -36,7 +36,7 @@ export const TasksList = [
     category: 'Travel',
     startTime: '2025-10-06T15:00:00Z',
     endTime: '2025-10-06T16:00:00Z',
-    status: 'overdue',
+    status: 'pending',
   },
   {
     id: '3',
@@ -44,7 +44,7 @@ export const TasksList = [
     category: 'Home',
     startTime: '2025-10-06T17:00:00Z',
     endTime: '2025-10-06T17:15:00Z',
-    status: 'pending',
+    status: 'overdue',
   },
   {
     id: '4',

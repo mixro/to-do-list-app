@@ -1,7 +1,7 @@
-import { FlatList, Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { FlatList, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { taskFilters, TasksList } from '@/assets/static/DummyData';
+import { TasksList } from '@/assets/static/DummyData';
 import TaskCard from '@/components/TaskCard';
 import HeaderComponent from '@/components/HeaderComponent';
 

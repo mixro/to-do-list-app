@@ -30,7 +30,7 @@ export default function TaskCard({ item }: { item: (typeof TasksList)[0] }) {
                     <Feather name="star" size={20} color="black" />
                 </View>
             </View>
-            <View className='h-2 bg-ligth-blue rounded-full my-3'></View>
+            <View className={`h-2 ${item.status == "pending" ? 'bg-yellow-500' : (item.status == "overdue" ? 'bg-red-500' :'bg-green-500')} rounded-full my-3`}></View>
         </View>
     </View>
   )

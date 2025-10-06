@@ -1,6 +1,5 @@
 import { Tabs } from 'expo-router';
 import Entypo from '@expo/vector-icons/Entypo';
-import Feather from '@expo/vector-icons/Feather';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import React from 'react';
 
@@ -27,10 +26,10 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="calendar"
+        name="profile"
         options={{
-          title: 'Calendar',
-          tabBarIcon: () => <Feather name="calendar" size={24} color="#333" />,
+          title: 'Profile',
+          tabBarIcon: () => <FontAwesome6 name="face-grin-beam" size={24} color="#333" />,
         }}
       />
     </Tabs>
