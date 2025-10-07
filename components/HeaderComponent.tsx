@@ -2,6 +2,7 @@ import { taskFilters } from '@/assets/static/DummyData'
 import Ionicons from '@expo/vector-icons/Ionicons'
 import { View, Text, Image, StyleSheet, TouchableOpacity, ScrollView } from 'react-native'
 import { HelloWave } from './hello-wave'
+import { Link } from 'expo-router'
 
 export default function HeaderComponent() {
   return (
@@ -32,9 +33,11 @@ export default function HeaderComponent() {
                 </View>
             </View>
             <View>
-                <TouchableOpacity className='bg-primary-light py-2 px-4 rounded-md'>
-                    <Text className='font-bold'>+ Add Task</Text>
-                </TouchableOpacity>
+                <Link href='/create' asChild>
+                    <TouchableOpacity className='bg-primary-light py-2 px-4 rounded-md'>
+                        <Text className='font-bold'>+ Adds Task</Text>
+                    </TouchableOpacity>
+                </Link>
             </View>
         </View>
         <View className='pt-10'>

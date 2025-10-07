@@ -32,6 +32,13 @@ export default function TabLayout() {
           tabBarIcon: () => <FontAwesome6 name="face-grin-beam" size={24} color="#333" />,
         }}
       />
+      <Tabs.Screen
+        name="task/[id]"
+        options={{
+          href: null,
+          headerShown: false,
+        }}
+      />
     </Tabs>
   );
 }
