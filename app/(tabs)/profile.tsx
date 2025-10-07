@@ -1,13 +1,10 @@
 import { View, Text, FlatList, StyleSheet, ScrollView, Image } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import { StatusBar } from 'expo-status-bar';
+
 import ProfileDetails from '@/components/ProfileDetails';
 
 export default function ProfileScreen() {
   return (
-    <>
-      <StatusBar backgroundColor="#4169E1" style="light" />
-      
+    <>      
       <ScrollView
         showsVerticalScrollIndicator={false}
       >

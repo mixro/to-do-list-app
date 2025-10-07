@@ -20,7 +20,7 @@ export default function ProfileDetails() {
                 </View>
                 <View className='w-1/2 mb-6'>
                     <Text className='mb-1 text-accent-blue font-medium text-lg'>Productive day/time</Text>
-                    <Text className='text-xl font-medium'>9AM-2PM</Text>
+                    <Text className='text-xl font-medium'>9am-2pm</Text>
                 </View>
             </View>
         </View>
