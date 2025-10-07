@@ -13,6 +13,7 @@ module.exports = {
         'primary-light': '#f6f1ff',
         'primary-dark': '#d8d7d7ff',
         'primary-gray': '#a8a8a8ff',
+        'charcoal-color': '#2c2c2cff',
         'accent-blue': '#4169E1', 
         'ligth-blue': '#809fffff',
         'secondary-background': '#fcfbffff',

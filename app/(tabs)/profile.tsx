@@ -1,6 +1,7 @@
 import { View, Text, FlatList, StyleSheet, ScrollView, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
+import ProfileDetails from '@/components/ProfileDetails';
 
 export default function ProfileScreen() {
   return (
@@ -22,18 +23,20 @@ export default function ProfileScreen() {
 
           <View className='px-3 py-9 border-b border-primary-gray flex-row justify-center items-center gap-20'>
             <View className='flex-column justify-center items-center'>
-              <Text className='text-4xl text-charcoal-400 font-semibold mb-1'>12</Text>
+              <Text className='text-4xl text-charcoal-color font-semibold mb-1'>12</Text>
               <Text className='text-gray-700'>Completed</Text>
             </View>
             <View className='flex-column justify-center items-center'>
-              <Text className='text-4xl text-charcoal-400 font-semibold mb-1'>7</Text>
+              <Text className='text-4xl text-charcoal-color font-semibold mb-1'>7</Text>
               <Text className='text-gray-700'>Pending</Text>
             </View>
             <View className='flex-column justify-center items-center'>
-              <Text className='text-4xl text-charcoal-400 font-semibold mb-1'>3</Text>
+              <Text className='text-4xl text-charcoal-color font-semibold mb-1'>3</Text>
               <Text className='text-gray-700'>Overdue</Text>
             </View>
           </View>
+
+          <ProfileDetails />
         </View>
       </ScrollView>
     </>
